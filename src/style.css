@@ -50,6 +50,10 @@ code {
   color: #05484e;
 }
 
+.dropdown-item{
+  background: none !important;
+}
+
 .hero {
   height: 100vh;
   padding-left: 100px;
