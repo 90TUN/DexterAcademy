@@ -7,7 +7,7 @@ const ProgramCard = ({ title, buttonText, link }) => {
     <div className="program-card">
       <div className="pc-head">
         <h2>{title}</h2>
-        <a href={link}>Link</a>
+        <a href={link}>View Course Outline</a>
       </div>
 
       <p>
