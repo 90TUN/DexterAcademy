@@ -33,8 +33,7 @@ function Body() {
             <div className="value-box-child">
               <h2 className="value-title">Empowerment</h2>
               <p className="value-description">
-                We strive for excellence in everything we do, from our courses
-                to our student support services.
+              We empower individuals to unleash their full potential, equipping them with the skills and confidence to lead
               </p>
             </div>
           </div>
@@ -49,8 +48,7 @@ function Body() {
             <div className="value-box-child">
               <h2 className="value-title">Innovation</h2>
               <p className="value-description">
-                We strive for excellence in everything we do, from our courses
-                to our student support services.
+              We embrace innovation in our curriculum and teaching methods to prepare students for the future
               </p>
             </div>
           </div>
