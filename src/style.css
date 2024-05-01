@@ -108,6 +108,9 @@ code {
   padding: 0 100px;
   display: flex;
   margin-bottom: 50px;
+  background-image: url('../public/images/bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .flex-container {
@@ -730,6 +733,7 @@ input[type="tel"]:focus {
     align-items: center;
     height: auto;
     max-height: none;
+    background-image: none;
   }
 
   .story {
@@ -929,6 +933,12 @@ input[type="tel"]:focus {
 }
 
 @media screen and (max-width: 680px) {
+
+  .value-box-child img{
+    height: 50px;
+    width: 50px;
+  }
+
   .hero_section {
     padding: 10px;
   }
@@ -1015,6 +1025,10 @@ input[type="tel"]:focus {
     width: 100% !important;
     margin: 0 !important;
     margin-bottom: 25px !important;
+  }
+
+  .value-box-child p{
+   font-size: 14px;
   }
 
   .program_section_head{
