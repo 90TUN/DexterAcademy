@@ -1016,4 +1016,17 @@ input[type="tel"]:focus {
     margin: 0 !important;
     margin-bottom: 25px !important;
   }
+
+  .program_section_head{
+    font-size: 20px !important;
+  }
+
+  .program-card button {
+    padding: 12px 25px;
+    padding-bottom: 30px;
+    border: 2px solid #05484e;
+    max-height: 40px;
+    max-width: 140px;
+    font-size: 14px;
+  }
 }

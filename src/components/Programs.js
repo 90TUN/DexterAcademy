@@ -32,7 +32,7 @@ const Programs = () => {
               selectedProgram === "Technology" ? " active" : ""
             }`}
           >
-            <button onClick={() => setSelectedProgram("Technology")}>
+            <button className="program_section_head" onClick={() => setSelectedProgram("Technology")}>
               Technology Programs
             </button>
           </div>
@@ -41,7 +41,7 @@ const Programs = () => {
               selectedProgram === "Leadership" ? " active" : ""
             }`}
           >
-            <button onClick={() => setSelectedProgram("Leadership")}>
+            <button className="program_section_head" onClick={() => setSelectedProgram("Leadership")}>
               Leadership Programs
             </button>
           </div>
