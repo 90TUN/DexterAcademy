@@ -1028,5 +1028,6 @@ input[type="tel"]:focus {
     max-height: 40px;
     max-width: 140px;
     font-size: 14px;
+    text-align: center;
   }
 }
