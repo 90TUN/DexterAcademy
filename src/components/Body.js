@@ -4,7 +4,7 @@ import MyForm from "./MyForm";
 function Body() {
   return (
     <div>
-      <div className="container-fluid second_section">
+      <div className="container-fluid second_section reverse">
         <div className="eei">
           <div className="value-box">
             <div className="value-box-child">
