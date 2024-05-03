@@ -92,8 +92,8 @@ function Body() {
               aiming to upskill, our courses are structured to meet your
               learning goals and advance your tech career
             </p>
-            <button type="button" className="btn btn-success btn-lg">
-              Learn More →
+            <button type="button" className="btn btn-lg">
+            <a href="/programs?program=Technology">Learn More →</a> 
             </button>
           </div>
         </div>
@@ -110,8 +110,8 @@ function Body() {
               our courses are tailored to meet your needs and help you achieve
               your goals.
             </p>
-            <button type="button" className="btn btn-success btn-lg">
-              Learn More →
+            <button type="button" className="btn btn-lg">
+             <a href="/programs?program=Leadership">Learn More →</a> 
             </button>
           </div>
           <div className="program">

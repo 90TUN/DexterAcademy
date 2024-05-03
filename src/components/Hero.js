@@ -17,7 +17,7 @@ function Hero() {
             possibilities.
           </p>
           <button type="button" className="btn btn-success btn-lg">
-            Start Learning →
+            <a href="/programs">Start Learning →</a> 
           </button>
         </div>
         <div className="hero_section">

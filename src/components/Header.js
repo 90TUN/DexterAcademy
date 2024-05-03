@@ -47,22 +47,28 @@ function Header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink
-                      className="dropdown-item"
-                      activeClassName="active"
-                      to="/programs"
-                    >
-                      Technology Programs
-                    </NavLink>
+                  <NavLink
+                    className="dropdown-item"
+                    activeClassName="active"
+                    to={{
+                      pathname: "/programs",
+                      search: "?program=Technology"
+                    }}
+                  >
+                    Technology Programs
+                  </NavLink>
                   </li>
                   <li>
-                    <NavLink
-                      className="dropdown-item"
-                      activeClassName="active"
-                      to="/programs"
-                    >
-                      Leadership programs
-                    </NavLink>
+                  <NavLink
+                    className="dropdown-item"
+                    activeClassName="active"
+                    to={{
+                      pathname: "/programs",
+                      search: "?program=Leadership"
+                    }}
+                  >
+                    Leadership Programs
+                  </NavLink>
                   </li>
                 </ul>
               </li>

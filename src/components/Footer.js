@@ -5,22 +5,14 @@ function Footer() {
     <footer className="footer">
       <div className="flex-container foot">
         <div className="footer1">
-          <h1>Dexter Academy</h1>
-          <div className="footer_text">
-            <img src="../images/footer_logo.png" alt="" />
-            <p>
-              This is just a filler text for now. We will add the actual
-              messaging here once we get a bit further down the road in the
-              project.
-            </p>
-          </div>
+            <img src="../images/footer_logo2.png" alt="" />
         </div>
         <div className="footer2 flex-container">
           <div className="footer_col">
             <h1>Programs</h1>
             <ul>
-              <li>Technology Programs</li>
-              <li>Leadership Programs</li>
+              <li><a href="/programs?program=Technology">Technology Programs</a></li>
+              <li><a href="/programs?program=Leadership">Leadership Programs</a></li>
             </ul>
           </div>
           <div className="footer_col">
